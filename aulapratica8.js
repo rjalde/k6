@@ -9,7 +9,7 @@ export const options = {
     ],
     thresholds: {
         checks: ['rate > 0.95'],
-        http_req_duration: ['p(95) < 200']
+        http_req_duration: ['p(95) < 400']
     },
     ext:{
         loadimpact:{

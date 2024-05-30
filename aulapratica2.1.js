@@ -4,8 +4,8 @@ import { SharedArray } from 'k6/data';
 
 export const options = {
     stages: [
-        { duration: '10s', target: 10 }, 
-        { duration: '10s', target: 10 },
+        { duration: '10s', target: 100 }, 
+        { duration: '10s', target: 100 },
         { duration: '10s', target: 0 } 
     ],
     thresholds: {
